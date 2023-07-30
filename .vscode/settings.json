@@ -1,0 +1,7 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "python.linting.ignorePatterns": [
+        ".venv/**/*.py",
+        "__init__.py"
+    ]
+}

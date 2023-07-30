@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "anki_addon_english_vocab"
+version = "1.0.0"
+description = ""
+authors = ["Randal Vance Cunanan <randal@randalvance.net>"]
+readme = "README.md"
+packages = [{include = "anki_addon_vocabulary"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aqt = {extras = ["qt6"], version = "^2.1.65"}
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.4.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
